@@ -1,0 +1,28 @@
+@mixin foto {
+    width: 100px;
+    height: 100px;
+    margin-top: 5px;
+    padding: 10px;
+}
+
+.toner{
+@include foto;
+}
+
+.epsonalt{
+    @include foto;
+}
+
+.mouse{
+    @include foto;
+}
+
+.saboteur{
+    @include foto;
+}
+
+.acrilico{
+    @include foto;
+}
+
+@import "../node_modules/bootstrap/scss/bootstrap";
