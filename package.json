@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
-    "build": "purgecss --css css/lunabel-custom.css --content lunabel-index.html -o css/reducido.css"
+    "build": "purgecss --css css/lunabel-custom.css --content index.html -o css/reducido.css"
 
   },
   "keywords": [],
